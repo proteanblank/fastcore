@@ -2,6 +2,93 @@
 
 <!-- do not remove -->
 
+## 1.5.48
+
+### New Features
+
+- New `expand_wildcards` function ([#576](https://github.com/fastai/fastcore/issues/576))
+- New `replace_wildcards` CLI ([#576](https://github.com/fastai/fastcore/issues/576))
+
+
+## 1.5.47
+
+### New Features
+
+- Add `void_` attr to `XT` and use for skipping closing tags in `to_xml` ([#575](https://github.com/fastai/fastcore/issues/575))
+
+
+## 1.5.46
+
+### New Features
+
+- Unwrap `NotStr` passed to `NotStr.__init__` ([#574](https://github.com/fastai/fastcore/issues/574))
+- Provide attr get/set in `XT` ([#572](https://github.com/fastai/fastcore/issues/572))
+- Handle non-str types in `to_xml` ([#571](https://github.com/fastai/fastcore/issues/571))
+
+
+## 1.5.45
+
+### New Features
+
+- Improve formatting of single child nodes in `to_xml` ([#570](https://github.com/fastai/fastcore/issues/570))
+
+
+## 1.5.44
+
+### Bugs Squashed
+
+- bool args incorrectly parsed in `fastcore.xml` ([#569](https://github.com/fastai/fastcore/issues/569))
+
+
+## 1.5.43
+
+### New Features
+
+- Add `parse_env` to provide similar functionality to `dotenv` pypi lib ([#568](https://github.com/fastai/fastcore/issues/568))
+- Add `partition` ([#567](https://github.com/fastai/fastcore/issues/567))
+- Add return value to `result` attr in `threaded` functions ([#563](https://github.com/fastai/fastcore/issues/563))
+
+
+## 1.5.42
+
+### New Features
+
+- Add HTTP functions: `tobytes`, `http_response`, and `recv_once` ([#562](https://github.com/fastai/fastcore/issues/562))
+- Convenience props for `XT` ([#561](https://github.com/fastai/fastcore/issues/561))
+- annotations for `get_class` / `mk_class` ([#560](https://github.com/fastai/fastcore/issues/560))
+
+
+## 1.5.41
+
+### New Features
+
+- Add `type2str` and `dataclass_src` to `xtras` ([#559](https://github.com/fastai/fastcore/issues/559))
+
+
+## 1.5.40
+
+### New Features
+
+- Save orig method in `patch` and `patch_to` ([#558](https://github.com/fastai/fastcore/issues/558))
+
+
+## 1.5.39
+
+### New Features
+
+- add `hl_md()` ([#557](https://github.com/fastai/fastcore/issues/557))
+- bool value handling for `xt` ([#556](https://github.com/fastai/fastcore/issues/556))
+- Add py2pyi ([#555](https://github.com/fastai/fastcore/issues/555))
+- Add attr support to `nested_idx` ([#554](https://github.com/fastai/fastcore/issues/554))
+
+
+## 1.5.38
+
+### New Features
+
+- add `fastcore.xml.highlight()` ([#553](https://github.com/fastai/fastcore/issues/553))
+
+
 ## 1.5.37
 
 ### New Features
